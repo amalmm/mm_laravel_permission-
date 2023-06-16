@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                      @foreach($obj as $data)
-                       <div>{{$data->name}}</div>
+                       <a href="{{route('backend.user.createUpdate')}}"> <div>{{$data->name}}</div></a>
                      @endforeach
                 </div>
             </div>
